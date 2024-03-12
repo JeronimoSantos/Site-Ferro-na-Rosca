@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.menu {
+    width: 13%;
+    background-color: #bfcff7;
+    padding: 10px 20px 0px;
+    border: solid 1px black;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: #c5e0dc;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.tabela {
+    border: double 6px black;
+    box-shadow: 14px 14px 3px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 14px 14px 3px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 14px 14px 3px 3px rgba(0,0,0,0.4);
+}
+
+.tabela__cacalho__titulo {
+    background-color: black;
+    color: white;
+    border-bottom: solid 2px cadetblue;
+}
+
+.tabela__corpo tr:nth-child(even) td {
+    background-color: cadetblue;
+}
+
+.mapa {
+    width: 100%;
+    height: 300px;
+}
+
+.tabela__rodape {
+    background-color: cadetblue;
+}
+
+.tabela tr:hover td {
+    background-color:darkslategray;
+    cursor: pointer;
+}
+
+.Formulario {
+    text-align: center;
+    padding: 2%;
+}
+
+.footer {
+    text-align: center;
+    background-color: #bfcff7;
+    width: 100%;
+    bottom: 0;
+}
